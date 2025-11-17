@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import { About, Tracks, Schedule, CTA } from './components/Sections';
+import { About, Tracks, Schedule, Community, FAQ, CTA } from './components/Sections';
 import Footer from './components/Footer';
 import './index.css';
 
@@ -19,6 +19,8 @@ function App() {
       <About />
       <Tracks />
       <Schedule />
+      <Community />
+      <FAQ />
       <CTA />
       <Footer />
     </div>
